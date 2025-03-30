@@ -37,7 +37,7 @@ export const SavedArticles = () => {
         { userId },
         { headers: { Authorization: `Bearer ${accessToken}` } }
       );
-       console.log(data);
+       //console.log(data);
       if (error) throw error;
 
       setSavedArticles(data.saved_articles);
