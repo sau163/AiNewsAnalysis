@@ -4,7 +4,7 @@ import { UserPreferences } from '../types';
 import { X } from 'lucide-react';
 
 const availableTopics = ['Technology', 'Sports', 'Health', 'Business', 'Entertainment', 'Science'];
-const availableSources = ['BBC', 'CNN', 'Al Jazeera', 'Reuters', 'The Guardian', 'New York Times'];
+const availableSources = ['BBC-News', 'CNN'];
 
 type PreferencesModalProps = {
   isOpen: boolean;
